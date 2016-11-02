@@ -1,8 +1,19 @@
 <div class="container">
-  <h1>Lisa</h1>
-  <ul class="list-group">
-    {{#each model as |product|}}
-      {{product-tile product=product}}
-    {{/each}}
-  </ul>
+  <h1>Epicoolness Boutique</h1>
+  <div class="row">
+    <div class="col-sm-8">
+      <h3>Products</h3>
+      <ul class="list-group">
+        {{#each model as |product|}}
+          {{product-tile product=product}}
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <h3>Shopping Cart</h3>
+      <ol class="list-group">
+        {{display-cart}}
+      </ol>
+    </div>
+  </div>
 </div>

@@ -1,1 +1,5 @@
-{{yield}}
+  {{#each shoppingCart.items as |item|}}
+    <li class="list-group-item">
+      {{item.title}} -- {{item.cost}}
+    </li>
+  {{/each}}

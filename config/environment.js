@@ -17,6 +17,13 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyCg30JDgYrCotqqCO30fGwojXZrnF79WQk",
+      authDomain: "e-commerce-ember.firebaseapp.com",
+      databaseURL: "https://e-commerce-ember.firebaseio.com",
+      storageBucket: "e-commerce-ember.appspot.com",
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

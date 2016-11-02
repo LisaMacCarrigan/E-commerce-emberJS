@@ -1,1 +1,8 @@
-{{yield}}
+<li>
+  <p><img src={{product.image}} alt={{product.title}} ></p>
+  {{product.title}} by {{product.brand}} - $ {{product.cost}}
+  {{product.description}}
+  <hr>
+</li>
+
+<button {{action ‘addToCart’ product}}>Add to Cart</button>

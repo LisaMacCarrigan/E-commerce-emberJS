@@ -1,0 +1,20 @@
+{ "products": [{
+    "title": "Ragg Wool Beanie",
+    "brand": "United By Blue",
+    "description": "Warm, simple, and stylish",
+    "cost": 27.95,
+    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg"
+  }, {
+    "title": "Ragg Wool Beanie",
+    "brand": "United By Blue",
+    "description": "Warm, simple, and stylish",
+    "cost": 27.95,
+    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg"
+  }, {
+    "title": "Ragg Wool Beanie",
+    "brand": "United By Blue",
+    "description": "Warm, simple, and stylish",
+    "cost": 27.95,
+    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg"
+  }]
+}

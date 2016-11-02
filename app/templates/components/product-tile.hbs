@@ -1,8 +1,7 @@
-<li>
-  <p><img src={{product.image}} alt={{product.title}} ></p>
+<li class="list-group-item">
+  <p><img class="img img-responsive" width="100" src={{product.image}} alt={{product.title}} class="img-responsive"></p>
   {{product.title}} by {{product.brand}} - $ {{product.cost}}
   {{product.description}}
   <hr>
+  <button {{action 'addToCart' product}}>Add to Cart</button>
 </li>
-
-<button {{action ‘addToCart’ product}}>Add to Cart</button>

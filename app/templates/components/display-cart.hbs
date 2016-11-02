@@ -1,5 +1,6 @@
   {{#each shoppingCart.items as |item|}}
     <li class="list-group-item">
       {{item.title}} -- {{item.cost}}
+      <button {{action 'removeFromCart' product}}>Remove Item</button>
     </li>
   {{/each}}

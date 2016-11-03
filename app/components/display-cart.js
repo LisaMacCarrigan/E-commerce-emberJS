@@ -6,6 +6,7 @@ export default Ember.Component.extend({
   actions: {
     removeFromCart(product) {
       this.get('shoppingCart').remove(product);
+      this.get('shoppingCart').calcTotal();
     }
 
 

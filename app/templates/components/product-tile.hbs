@@ -2,7 +2,19 @@
   <p><img class="img img-responsive" width="250" src={{product.image}} alt={{product.title}} class="img-responsive"></p>
   <h5>{{product.title}} by {{product.brand}}</h5>
   <p>{{product.description}}</p>
-  ${{product.cost}}
+  Retail Price: ${{product.cost}}
+
+  {{#if product.sale_cost}}
+    <br>Sale Price: ${{product.sale_cost}}
+  {{/if}}
+
   <hr>
-  <button class="btn btn-success" {{action 'addToCart' product}}>Add to Cart</button>
+  <div class="row">
+    <div class="col-xs-10">
+      <button class="btn btn-success" {{action 'addToCart' product}}>Add to Cart</button>
+    </div>
+    <div class="col-xs-2">
+      <h3>{{product-affordability product "Name One" "Name Two"}}</h3>
+    </div>
+  </div>
 </li>

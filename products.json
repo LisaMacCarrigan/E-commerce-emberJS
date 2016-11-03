@@ -12,8 +12,8 @@
     "description": "Classic, black leather, conservative",
     "cost": 53.95,
     "image": "https://img1.etsystatic.com/105/0/6993010/il_570xN.884221049_82cc.jpg",
-    "sale": false,
-    "sale_cost": null
+    "sale": true,
+    "sale_cost": 3.00
   }, {
     "title": "Wayfarer Sunglasses",
     "brand": "EmblemEyewear",

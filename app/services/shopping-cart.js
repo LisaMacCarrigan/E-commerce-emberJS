@@ -32,7 +32,7 @@ export default Ember.Service.extend({
     cart.forEach(function(item) {
       current_cost += item.get('cost');
     });
-    this.set('total_cost', current_cost);
+    this.set('total_cost', current_cost.toFixed(2));
 
   }
 

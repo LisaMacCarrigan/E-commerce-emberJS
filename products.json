@@ -3,18 +3,32 @@
     "brand": "United By Blue",
     "description": "Warm, simple, and stylish",
     "cost": 27.95,
-    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg"
+    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg",
+    "sale": true,
+    "sale_cost": 24.95
   }, {
-    "title": "Ragg Wool Beanie",
-    "brand": "United By Blue",
-    "description": "Warm, simple, and stylish",
-    "cost": 27.95,
-    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg"
+    "title": "Wingtip Oxford Shoes",
+    "brand": "Brogue",
+    "description": "Classic, black leather, conservative",
+    "cost": 53.95,
+    "image": "https://img1.etsystatic.com/105/0/6993010/il_570xN.884221049_82cc.jpg",
+    "sale": false,
+    "sale_cost": null
   }, {
-    "title": "Ragg Wool Beanie",
-    "brand": "United By Blue",
-    "description": "Warm, simple, and stylish",
-    "cost": 27.95,
-    "image": "https://content.backcountry.com/images/items/900/UBB/UBB001D/OAT.jpg"
+    "title": "Wayfarer Sunglasses",
+    "brand": "EmblemEyewear",
+    "description": "Classic, Half Frame Vintage Clubmaster ",
+    "cost": 7.95,
+    "image": "https://img1.etsystatic.com/074/0/10930722/il_570xN.812409387_m4r3.jpg",
+    "sale": false,
+    "sale_cost": null
+  }, {
+    "title": "Windbreaker Hooded Jacket",
+    "brand": "TIKLAS",
+    "description": "Vintage Light blue, Finnish Jacket",
+    "cost": 42.95,
+    "image": "https://img0.etsystatic.com/134/0/11334361/il_570xN.931511426_ri2a.jpg",
+    "sale": false,
+    "sale_cost": null
   }]
 }

@@ -22,11 +22,19 @@ export default Ember.Service.extend({
 
   remove(item) {
     this.get('items').removeObject(item);
-  }
+  },
 
-  // cost() {
-  //   var
-  // }
+  calcTotal() {
+
+    var cart = this.get('items');
+    var current_cost = 0;
+
+    cart.forEach(function(item) {
+      current_cost += item.get('cost');
+    });
+    this.set('total_cost', current_cost);
+
+  }
 
 });
 

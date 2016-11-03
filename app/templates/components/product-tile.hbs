@@ -1,8 +1,8 @@
 <li class="list-group-item">
-  <p><img class="img img-responsive" width="100" src={{product.image}} alt={{product.title}} class="img-responsive"></p>
+  <p><img class="img img-responsive" width="250" src={{product.image}} alt={{product.title}} class="img-responsive"></p>
   <h5>{{product.title}} by {{product.brand}}</h5>
   <p>{{product.description}}</p>
   ${{product.cost}}
   <hr>
-  <button {{action 'addToCart' product}}>Add to Cart</button>
+  <button class="btn btn-success" {{action 'addToCart' product}}>Add to Cart</button>
 </li>

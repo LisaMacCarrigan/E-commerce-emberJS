@@ -1,7 +1,13 @@
   {{#each shoppingCart.items as |item|}}
     <li class="list-group-item">
-      {{item.title}} -- {{item.cost}}
-      <button {{action 'removeFromCart' item}}>Remove</button>
+      <div class=row>
+        <div class="col-xs-3">
+          <img class="img img-responsive" width="50" src={{item.image}} alt={{item.title}} class="img-responsive">
+        </div>
+        <div class="col-xs-9">
+          {{item.title}} -- {{item.cost}} <button class="btn btn-xs" {{action 'removeFromCart' item}}>Remove</button>
+        </div>
+      </div>
     </li>
   {{/each}}
   <hr>
